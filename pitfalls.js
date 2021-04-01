@@ -6,10 +6,11 @@
 
 // Check if "hello" is NaN.
 let greetMe = "Hello";
+console.log(isNaN(parseInt(greetMe)));
 
 //__________
 //Check if 3 is NaN.
-console.log(parseInt(greetMe));
+
 console.log(isNaN(3));
 
 //____________________
